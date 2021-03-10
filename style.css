@@ -1,0 +1,73 @@
+html {
+   font: 75% Verdana,sans-serif;
+}
+
+:root {
+  --main-1-color: #21C4C4;
+  --main-2-color: #23B2B2;
+  --main-3-color: #2D4A0C;
+}
+
+h1, h2, h3, p {
+  padding: 0px 0px 0px 0px;
+}
+
+i {
+  font-size:24px;
+}
+
+td {
+  padding-right: 1%;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+#divPrincipal {
+  width: 75%;
+  background-image: url("curriculum.jpg");
+}
+
+#img {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  border: 3px solid var(--main-1-color);
+}
+
+table {
+  border-style: double;
+}
+
+#nombre {
+  font-size: 30px;
+  margin-bottom: 0px;
+  color: var(--main-3-color); 
+}
+
+#ap {
+  font-size: 40px;
+  margin-top: 0px;
+  color: var(--main-3-color); 
+}
+
+h2{
+  background-color: var(--main-2-color);
+  border-radius: 25px 0px 25px 0px;
+  text-align: center;
+  font-size: 20px;
+  width: 85%;
+  box-shadow: 5px 1px 1px var(--main-1-color);
+}
+
+.fa{
+  border-radius: 25px 0px 25px 0px;
+  background-color: var(--main-2-color);
+}
+
+#titulo {
+  font-size: 25px;
+}
+
+#div {
+  border-radius: 10%;
+}
